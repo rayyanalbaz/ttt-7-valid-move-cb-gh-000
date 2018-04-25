@@ -19,7 +19,7 @@ def position_taken?(board , index)
     return false
   end
   if board[index] == nil
-    return true
+    return false
   end
 
 end
